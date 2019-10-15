@@ -8,11 +8,14 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 473.6666666666667,
-                    "y": 181.66666666666666
+                    "x": 1080,
+                    "y": 380
                 },
                 "z": 0,
-                "embeds": []
+                "embeds": [],
+                "isassociatedwith": [
+                    "ae6a4c94-62cf-4a54-8a52-77c968b91312"
+                ]
             },
             "e62c4fed-68c6-4381-b730-bfd4a617ce6d": {
                 "size": {
@@ -20,10 +23,13 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 670,
-                    "y": 210
+                    "x": 880,
+                    "y": 380
                 },
-                "z": 0
+                "z": 0,
+                "isassociatedwith": [
+                    "ae6a4c94-62cf-4a54-8a52-77c968b91312"
+                ]
             },
             "dd304208-975c-463e-8ebc-77d1840b6e62": {
                 "size": {
@@ -31,8 +37,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 670,
-                    "y": 300
+                    "x": 780,
+                    "y": 380
                 },
                 "z": 0,
                 "isassociatedwith": [
@@ -53,30 +59,47 @@
                     "dd304208-975c-463e-8ebc-77d1840b6e62"
                 ]
             },
-            "5b2de1e9-baeb-44f7-9101-c66500cc280f": {
+            "ae6a4c94-62cf-4a54-8a52-77c968b91312": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 980,
+                    "y": 380
+                },
+                "z": 0
+            },
+            "fc8a78e2-a718-4bb6-8fec-ef099ca0b3d7": {
                 "source": {
-                    "id": "dd304208-975c-463e-8ebc-77d1840b6e62"
+                    "id": "31edd82e-e2bb-4389-8e37-632398e0f98d"
                 },
                 "target": {
+                    "id": "ae6a4c94-62cf-4a54-8a52-77c968b91312"
+                },
+                "z": 3
+            },
+            "8fefb029-c2ee-48f7-a5f7-5ba4db366268": {
+                "source": {
                     "id": "e62c4fed-68c6-4381-b730-bfd4a617ce6d"
                 },
-                "z": 1
-            },
-            "47091cb3-6057-4fee-9991-d6992fc30565": {
-                "source": {
-                    "id": "048e7b0b-f1ce-4f2e-ae18-9631868454da"
-                },
                 "target": {
-                    "id": "dd304208-975c-463e-8ebc-77d1840b6e62"
+                    "id": "ae6a4c94-62cf-4a54-8a52-77c968b91312"
                 },
-                "z": 2
+                "z": 4
             }
         }
     },
     "Resources": {
         "ELBV2LB4POL4": {
             "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
-            "Properties": {},
+            "Properties": {
+                "SecurityGroups": [
+                    {
+                        "Ref": "EC2SG3LYB8"
+                    }
+                ]
+            },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "31edd82e-e2bb-4389-8e37-632398e0f98d"
@@ -85,7 +108,13 @@
         },
         "ASLC2MXU2": {
             "Type": "AWS::AutoScaling::LaunchConfiguration",
-            "Properties": {},
+            "Properties": {
+                "ClassicLinkVPCSecurityGroups": [
+                    {
+                        "Ref": "EC2SG3LYB8"
+                    }
+                ]
+            },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "e62c4fed-68c6-4381-b730-bfd4a617ce6d"
@@ -115,6 +144,15 @@
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "048e7b0b-f1ce-4f2e-ae18-9631868454da"
+                }
+            }
+        },
+        "EC2SG3LYB8": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "ae6a4c94-62cf-4a54-8a52-77c968b91312"
                 }
             }
         }
