@@ -1,0 +1,29 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "31edd82e-e2bb-4389-8e37-632398e0f98d": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 473.6666666666667,
+                    "y": 181.66666666666666
+                },
+                "z": 0
+            }
+        }
+    },
+    "Resources": {
+        "ELBV2LB4POL4": {
+            "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "31edd82e-e2bb-4389-8e37-632398e0f98d"
+                }
+            }
+        }
+    }
+}
