@@ -27,6 +27,7 @@
                     "y": 380
                 },
                 "z": 0,
+                "embeds": [],
                 "isassociatedwith": [
                     "ae6a4c94-62cf-4a54-8a52-77c968b91312"
                 ]
@@ -41,6 +42,7 @@
                     "y": 380
                 },
                 "z": 0,
+                "embeds": [],
                 "isassociatedwith": [
                     "e62c4fed-68c6-4381-b730-bfd4a617ce6d"
                 ]
@@ -55,6 +57,7 @@
                     "y": 380
                 },
                 "z": 0,
+                "embeds": [],
                 "isassociatedwith": [
                     "dd304208-975c-463e-8ebc-77d1840b6e62"
                 ]
@@ -68,25 +71,40 @@
                     "x": 980,
                     "y": 380
                 },
+                "z": 0,
+                "embeds": []
+            },
+            "337f38cb-e990-49ad-8047-7f4c270e1035": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 1210,
+                    "y": 380
+                },
                 "z": 0
             },
-            "fc8a78e2-a718-4bb6-8fec-ef099ca0b3d7": {
-                "source": {
-                    "id": "31edd82e-e2bb-4389-8e37-632398e0f98d"
+            "8455175e-313a-4326-b8fa-e09bb9456a7e": {
+                "size": {
+                    "width": 300,
+                    "height": 140
                 },
-                "target": {
-                    "id": "ae6a4c94-62cf-4a54-8a52-77c968b91312"
+                "position": {
+                    "x": 1090,
+                    "y": 510
                 },
-                "z": 3
+                "z": 0,
+                "embeds": []
             },
-            "8fefb029-c2ee-48f7-a5f7-5ba4db366268": {
+            "e8deba64-913b-422d-8b8b-2cb2ca6edf39": {
                 "source": {
-                    "id": "e62c4fed-68c6-4381-b730-bfd4a617ce6d"
+                    "id": "337f38cb-e990-49ad-8047-7f4c270e1035"
                 },
                 "target": {
-                    "id": "ae6a4c94-62cf-4a54-8a52-77c968b91312"
+                    "id": "8455175e-313a-4326-b8fa-e09bb9456a7e"
                 },
-                "z": 4
+                "z": 11
             }
         }
     },
@@ -153,6 +171,40 @@
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "ae6a4c94-62cf-4a54-8a52-77c968b91312"
+                }
+            }
+        },
+        "EC2IG177ER": {
+            "Type": "AWS::EC2::InternetGateway",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "337f38cb-e990-49ad-8047-7f4c270e1035"
+                }
+            }
+        },
+        "EC2VPC4524F": {
+            "Type": "AWS::EC2::VPC",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "8455175e-313a-4326-b8fa-e09bb9456a7e"
+                }
+            }
+        },
+        "EC2VPCG327H0": {
+            "Type": "AWS::EC2::VPCGatewayAttachment",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "EC2VPC4524F"
+                },
+                "InternetGatewayId": {
+                    "Ref": "EC2IG177ER"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "e8deba64-913b-422d-8b8b-2cb2ca6edf39"
                 }
             }
         }
