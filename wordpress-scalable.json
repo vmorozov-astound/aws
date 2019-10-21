@@ -136,6 +136,13 @@
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e"
                 ]
             },
@@ -152,6 +159,13 @@
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -183,6 +197,13 @@
                 "iscontainedinside": [
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e"
                 ]
             },
@@ -201,6 +222,13 @@
                 "iscontainedinside": [
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e"
                 ]
             },
@@ -211,7 +239,7 @@
                 "target": {
                     "id": "c994b1bf-3b23-4b98-b24a-2067a2bd9c3b"
                 },
-                "z": 11
+                "z": 1
             },
             "f924c4d1-2cec-45ad-915c-eb5edd9462d3": {
                 "source": {
@@ -220,7 +248,7 @@
                 "target": {
                     "id": "d18aa33e-54c8-4e4f-b77f-ad5df35c05fa"
                 },
-                "z": 12
+                "z": 1
             },
             "684b94f2-0190-4fd5-afd5-c75c2cde25bd": {
                 "size": {
@@ -233,21 +261,20 @@
                 },
                 "z": 2,
                 "parent": "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                "embeds": [],
                 "isassociatedwith": [
                     "337f38cb-e990-49ad-8047-7f4c270e1035"
                 ],
                 "iscontainedinside": [
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
                     "78043648-6ef7-47a7-a365-4ca1efc967ad"
                 ]
-            },
-            "3f8b745d-7a46-4bf3-a567-3deed6e06f1a": {
-                "source": {
-                    "id": "684b94f2-0190-4fd5-afd5-c75c2cde25bd"
-                },
-                "target": {
-                    "id": "337f38cb-e990-49ad-8047-7f4c270e1035"
-                },
-                "z": 13
             }
         }
     },
@@ -317,15 +344,6 @@
                 }
             }
         },
-        "EC2IG177ER": {
-            "Type": "AWS::EC2::InternetGateway",
-            "Properties": {},
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "337f38cb-e990-49ad-8047-7f4c270e1035"
-                }
-            }
-        },
         "EC2VPCG327H0": {
             "Type": "AWS::EC2::VPCGatewayAttachment",
             "Properties": {
@@ -333,7 +351,7 @@
                     "Ref": "TheVPC"
                 },
                 "InternetGatewayId": {
-                    "Ref": "EC2IG177ER"
+                    "Ref": "Gateway"
                 }
             },
             "Metadata": {
@@ -344,7 +362,10 @@
         },
         "TheVPC": {
             "Type": "AWS::EC2::VPC",
-            "Properties": {},
+            "Properties": {
+                "CidrBlock": "10.0.0.0/16",
+                "EnableDnsHostnames": true
+            },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
                     "id": "8455175e-313a-4326-b8fa-e09bb9456a7e"
@@ -356,6 +377,15 @@
             "Properties": {
                 "VpcId": {
                     "Ref": "TheVPC"
+                },
+                "CidrBlock": "10.0.0.0/24",
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        "0",
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
                 }
             },
             "Metadata": {
@@ -369,6 +399,15 @@
             "Properties": {
                 "VpcId": {
                     "Ref": "TheVPC"
+                },
+                "CidrBlock": "10.0.1.0/24",
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        "0",
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
                 }
             },
             "Metadata": {
@@ -435,15 +474,25 @@
                 }
             }
         },
-        "EC2R4IQVU": {
+        "Gateway": {
+            "Type": "AWS::EC2::InternetGateway",
+            "Properties": {},
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "337f38cb-e990-49ad-8047-7f4c270e1035"
+                }
+            }
+        },
+        "PublicRoute": {
             "Type": "AWS::EC2::Route",
             "Properties": {
                 "RouteTableId": {
                     "Ref": "PublicRouteTable"
                 },
                 "GatewayId": {
-                    "Ref": "EC2IG177ER"
-                }
+                    "Ref": "Gateway"
+                },
+                "DestinationCidrBlock": "0.0.0.0/0"
             },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
