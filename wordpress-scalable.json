@@ -80,8 +80,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 1440,
-                    "y": 380
+                    "x": 900,
+                    "y": 540
                 },
                 "z": 0,
                 "embeds": []
@@ -93,16 +93,16 @@
                 },
                 "position": {
                     "x": 1030,
-                    "y": 530
+                    "y": 640
                 },
                 "z": 0,
                 "embeds": [
                     "06c0e97f-8c7c-4133-8cba-5e2ba75e3d46",
-                    "0302bc23-aec7-4755-8b2d-f80abd1c0cc6",
-                    "cf441466-accd-4d4a-baf8-ce5f658ebc59",
-                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
                     "d18aa33e-54c8-4e4f-b77f-ad5df35c05fa",
-                    "c994b1bf-3b23-4b98-b24a-2067a2bd9c3b"
+                    "0302bc23-aec7-4755-8b2d-f80abd1c0cc6",
+                    "c994b1bf-3b23-4b98-b24a-2067a2bd9c3b",
+                    "cf441466-accd-4d4a-baf8-ce5f658ebc59",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad"
                 ]
             },
             "e8deba64-913b-422d-8b8b-2cb2ca6edf39": {
@@ -121,12 +121,15 @@
                 },
                 "position": {
                     "x": 1100,
-                    "y": 570
+                    "y": 680
                 },
                 "z": 1,
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -160,12 +163,15 @@
                 },
                 "position": {
                     "x": 1100,
-                    "y": 750
+                    "y": 860
                 },
                 "z": 1,
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -199,7 +205,7 @@
                 },
                 "position": {
                     "x": 1280,
-                    "y": 570
+                    "y": 680
                 },
                 "z": 1,
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -207,6 +213,9 @@
                     "684b94f2-0190-4fd5-afd5-c75c2cde25bd"
                 ],
                 "iscontainedinside": [
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -231,12 +240,15 @@
                 },
                 "position": {
                     "x": 1280,
-                    "y": 750
+                    "y": 860
                 },
                 "z": 1,
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -279,7 +291,7 @@
                 },
                 "position": {
                     "x": 1320,
-                    "y": 610
+                    "y": 720
                 },
                 "z": 2,
                 "parent": "78043648-6ef7-47a7-a365-4ca1efc967ad",
@@ -288,6 +300,9 @@
                     "337f38cb-e990-49ad-8047-7f4c270e1035"
                 ],
                 "iscontainedinside": [
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
                     "78043648-6ef7-47a7-a365-4ca1efc967ad",
                     "78043648-6ef7-47a7-a365-4ca1efc967ad",
                     "78043648-6ef7-47a7-a365-4ca1efc967ad",
@@ -310,12 +325,15 @@
                 },
                 "position": {
                     "x": 1460,
-                    "y": 570
+                    "y": 680
                 },
                 "z": 1,
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -349,7 +367,7 @@
                 },
                 "position": {
                     "x": 1460,
-                    "y": 750
+                    "y": 860
                 },
                 "z": 1,
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -378,8 +396,29 @@
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e"
                 ]
+            },
+            "3c84fc57-463d-491a-a0e5-043ad5f7eabf": {
+                "source": {
+                    "id": "cf441466-accd-4d4a-baf8-ce5f658ebc59"
+                },
+                "target": {
+                    "id": "06c0e97f-8c7c-4133-8cba-5e2ba75e3d46"
+                },
+                "z": 1
+            },
+            "63f58a74-29d5-4220-88e3-8f80eebd85a1": {
+                "source": {
+                    "id": "78043648-6ef7-47a7-a365-4ca1efc967ad"
+                },
+                "target": {
+                    "id": "0302bc23-aec7-4755-8b2d-f80abd1c0cc6"
+                },
+                "z": 1
             }
         }
     },
@@ -477,50 +516,6 @@
                 }
             }
         },
-        "PublicSubnet": {
-            "Type": "AWS::EC2::Subnet",
-            "Properties": {
-                "VpcId": {
-                    "Ref": "TheVPC"
-                },
-                "CidrBlock": "10.0.0.0/24",
-                "AvailabilityZone": {
-                    "Fn::Select": [
-                        "0",
-                        {
-                            "Fn::GetAZs": ""
-                        }
-                    ]
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "c994b1bf-3b23-4b98-b24a-2067a2bd9c3b"
-                }
-            }
-        },
-        "PrivateSubnet": {
-            "Type": "AWS::EC2::Subnet",
-            "Properties": {
-                "VpcId": {
-                    "Ref": "TheVPC"
-                },
-                "CidrBlock": "10.0.1.0/24",
-                "AvailabilityZone": {
-                    "Fn::Select": [
-                        "0",
-                        {
-                            "Fn::GetAZs": ""
-                        }
-                    ]
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "d18aa33e-54c8-4e4f-b77f-ad5df35c05fa"
-                }
-            }
-        },
         "PublicRouteTable": {
             "Type": "AWS::EC2::RouteTable",
             "Properties": {
@@ -554,7 +549,7 @@
                     "Ref": "PublicRouteTable"
                 },
                 "SubnetId": {
-                    "Ref": "PublicSubnet"
+                    "Ref": "PublicSubnet1"
                 }
             },
             "Metadata": {
@@ -570,7 +565,7 @@
                     "Ref": "PrivateRouteTable"
                 },
                 "SubnetId": {
-                    "Ref": "PrivateSubnet"
+                    "Ref": "PrivateSubnet1"
                 }
             },
             "Metadata": {
@@ -605,11 +600,74 @@
                 }
             }
         },
-        "EC2SAUTF": {
+        "EC2SRTAO7WP": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "PrivateRouteTable"
+                },
+                "SubnetId": {
+                    "Ref": "PrivateSubnet2"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "3c84fc57-463d-491a-a0e5-043ad5f7eabf"
+                }
+            }
+        },
+        "EC2SRTA4F5GA": {
+            "Type": "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties": {
+                "RouteTableId": {
+                    "Ref": "PublicRouteTable"
+                },
+                "SubnetId": {
+                    "Ref": "PublicSubnet2"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "63f58a74-29d5-4220-88e3-8f80eebd85a1"
+                }
+            }
+        },
+        "PublicSubnet1": {
             "Type": "AWS::EC2::Subnet",
             "Properties": {
                 "VpcId": {
                     "Ref": "TheVPC"
+                },
+                "CidrBlock": "10.0.0.0/24",
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        "0",
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "c994b1bf-3b23-4b98-b24a-2067a2bd9c3b"
+                }
+            }
+        },
+        "PublicSubnet2": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "TheVPC"
+                },
+                "CidrBlock": "10.1.0.0/24",
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        "1",
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
                 }
             },
             "Metadata": {
@@ -618,11 +676,42 @@
                 }
             }
         },
-        "EC2S1F4LB": {
+        "PrivateSubnet1": {
             "Type": "AWS::EC2::Subnet",
             "Properties": {
                 "VpcId": {
                     "Ref": "TheVPC"
+                },
+                "CidrBlock": "10.0.1.0/24",
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        "0",
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "d18aa33e-54c8-4e4f-b77f-ad5df35c05fa"
+                }
+            }
+        },
+        "PrivateSubnet2": {
+            "Type": "AWS::EC2::Subnet",
+            "Properties": {
+                "VpcId": {
+                    "Ref": "TheVPC"
+                },
+                "CidrBlock": "10.1.1.0/24",
+                "AvailabilityZone": {
+                    "Fn::Select": [
+                        "1",
+                        {
+                            "Fn::GetAZs": ""
+                        }
+                    ]
                 }
             },
             "Metadata": {
