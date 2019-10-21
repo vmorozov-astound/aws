@@ -143,6 +143,7 @@
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e"
                 ]
             },
@@ -159,6 +160,7 @@
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -204,6 +206,7 @@
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e"
                 ]
             },
@@ -220,6 +223,7 @@
                 "parent": "8455175e-313a-4326-b8fa-e09bb9456a7e",
                 "embeds": [],
                 "iscontainedinside": [
+                    "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
                     "8455175e-313a-4326-b8fa-e09bb9456a7e",
@@ -266,6 +270,7 @@
                     "337f38cb-e990-49ad-8047-7f4c270e1035"
                 ],
                 "iscontainedinside": [
+                    "78043648-6ef7-47a7-a365-4ca1efc967ad",
                     "78043648-6ef7-47a7-a365-4ca1efc967ad",
                     "78043648-6ef7-47a7-a365-4ca1efc967ad",
                     "78043648-6ef7-47a7-a365-4ca1efc967ad",
@@ -498,6 +503,23 @@
                 "AWS::CloudFormation::Designer": {
                     "id": "684b94f2-0190-4fd5-afd5-c75c2cde25bd"
                 }
+            }
+        }
+    },
+    "Outputs": {
+        "TheVPC": {
+            "Description": "TheVPC",
+            "Value": {
+                "Ref": "TheVPC"
+            }
+        },
+        "AZ1": {
+            "Description": "Availability Zone 1",
+            "Value": {
+                "Fn::GetAtt": [
+                    "PublicSubnet",
+                    "AvailabilityZone"
+                ]
             }
         }
     }
